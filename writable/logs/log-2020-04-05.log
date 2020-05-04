@@ -1,0 +1,6 @@
+CRITICAL - 2020-04-05 18:23:38 --> Class 'Kint\Kint' not found
+#0 /var/www/html/framework-4.0.2/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/framework-4.0.2/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/framework-4.0.2/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/framework-4.0.2/spark(44): require('/var/www/html/f...')
+#4 {main}

@@ -1,0 +1,53 @@
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs (master)
+$ git remote add origin https://github.com/lnavarroa/charge.git
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs (master)
+$ git clone https://github.com/lnavarroa/charge.git
+Cloning into 'charge'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 602 bytes | 100.00 KiB/s, done.
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs (master)
+$ cd charge
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs/charge (master)
+$ git remote add origin https://github.com/lnavarroa/charge.git
+fatal: remote origin already exists.
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs/charge (master)
+$ git remote add myci4template https://github.com/lnavarroa/myCI4template.git
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs/charge (master)
+$ git remote -v
+myci4template   https://github.com/lnavarroa/myCI4template.git (fetch)
+myci4template   https://github.com/lnavarroa/myCI4template.git (push)
+origin  https://github.com/lnavarroa/charge.git (fetch)
+origin  https://github.com/lnavarroa/charge.git (push)
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs/charge (master)
+$ git pull myci4template master
+warning: no common commits
+remote: Enumerating objects: 816, done.
+remote: Counting objects: 100% (816/816), done.
+remote: Compressing objects: 100% (519/519), done.
+remote: Total 816 (delta 273), reused 790 (delta 250), pack-reused 0
+Receiving objects: 100% (816/816), 1.15 MiB | 714.00 KiB/s, done.
+Resolving deltas: 100% (273/273), done.
+From https://github.com/lnavarroa/myCI4template
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> myci4template/master
+fatal: refusing to merge unrelated histories
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs/charge (master)
+$ git pull myci4template master --allow-unrelated-histories
+From https://github.com/lnavarroa/myCI4template
+ * branch            master     -> FETCH_HEAD
+CONFLICT (add/add): Merge conflict in README.md
+Auto-merging README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs/charge (master|MERGING)
+$

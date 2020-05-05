@@ -51,3 +51,25 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 luch0@luch0-PC MINGW64 /c/xampp/htdocs/charge (master|MERGING)
 $
+
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs/charge (master|MERGING)
+$ git add .
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs/charge (master|MERGING)
+$ git commit -m "Instalación Framework"
+[master 6cf74b2] Instalación Framework
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs/charge (master)
+$ git push origin master
+Enumerating objects: 822, done.
+Counting objects: 100% (822/822), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (500/500), done.
+Writing objects: 100% (820/820), 1.15 MiB | 411.00 KiB/s, done.
+Total 820 (delta 275), reused 814 (delta 273)
+remote: Resolving deltas: 100% (275/275), done.
+To https://github.com/lnavarroa/charge.git
+   dbfd5d2..6cf74b2  master -> master
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs/charge (master)

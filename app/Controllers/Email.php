@@ -1,6 +1,6 @@
 <?php namespace App\Controllers;
 
-class MetasploitStylus extends BaseController
+class Email extends BaseController
 {
 	public function index()
 	{
@@ -21,6 +21,10 @@ class MetasploitStylus extends BaseController
 		//echo view('templates/footer');
 	}
 
+	public function send()
+	{
+
+	}
 	//--------------------------------------------------------------------
 
 }

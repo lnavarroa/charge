@@ -4,8 +4,8 @@
 
 <section>
 
-<div class="jumbotron jumbotron-fluid bg-success">
-	<div class="container bg-green">
+<div class="jumbotron jumbotron-fluid" style="background-color: #7c9d19;">
+	<div class="container" style="background-color: #8ab603;">
   		<p class="text-white">Atrae más clientes a tu negocio.</p>
   		<p class="text-white">Destaca entre tus pares, ofreciendo un servicio adicional.</p>
   		<p class="text-white">Mejoras tu calidad de servicio.</p>

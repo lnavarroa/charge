@@ -2,10 +2,10 @@
 
 <!-- CONTENT -->
 
-<section id="charge">
+<section id="charge" style="background-color: #8ab603;">
 
-<div class="jumbotron jumbotron-fluid bg-success">
-	<div class="container bg-green">
+<div class="jumbotron jumbotron-fluid" style="background-color: #8ab603;">
+	<div class="container" style="background-color: #8ab603;">
   		<h5 class="display-5 text-white">No dejes sin batería a tus clientes.</h5>
   		<p class="lead text-white">Proporciona un punto de carga a sus teléfonos.</p>
   		<hr class="my-4 text-white">

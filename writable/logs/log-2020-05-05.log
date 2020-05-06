@@ -1,0 +1,9 @@
+CRITICAL - 2020-05-05 20:06:15 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\charge\app\Controllers\Email.php(39): mail('lnav@tutanota.c...', 'prueba consulta', 'From: luis \n Em...', 'From: luis.nava...')
+#2 C:\xampp\htdocs\charge\system\CodeIgniter.php(910): App\Controllers\Email->send()
+#3 C:\xampp\htdocs\charge\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#4 C:\xampp\htdocs\charge\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\charge\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\charge\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

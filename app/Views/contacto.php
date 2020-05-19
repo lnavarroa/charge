@@ -19,8 +19,9 @@
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
+                        	<label for="name" class="">Nombre</label>
                             <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Nombre</label>
+                            
                         </div>
                     </div>
                     <!--Grid column-->
@@ -28,8 +29,18 @@
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
+                        	<label for="email" class="">Email</label>
                             <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Email</label>
+                            
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                        	<label for="celu" class="">Teléfono</label>
+                            <input type="text" id="celu" name="celu" class="form-control">
+                            
                         </div>
                     </div>
                     <!--Grid column-->
@@ -41,8 +52,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="md-form mb-0">
+                        	<label for="subject" class="">Asunto</label>
                             <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Asunto</label>
+                            
                         </div>
                     </div>
                 </div>
@@ -55,8 +67,9 @@
                     <div class="col-md-12">
 
                         <div class="md-form">
+                        	<label for="message">Mensaje</label>
                             <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Mensaje</label>
+                            
                         </div>
 
                     </div>
@@ -66,7 +79,8 @@
             </form>
 
             <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                <!--<a class="btn btn-primary" onclick="validateForm();">-->
+                <a class="btn btn-primary d-flex justify-content-center" onclick="document.getElementById('contact-form').submit();">Enviar</a>
             </div>
             <div class="status"></div>
         </div>
@@ -84,7 +98,7 @@
                 </li>
 
                 <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>contacto@charge.cl</p>
+                    <p>contacto@ylit.cl</p>
                 </li>
             </ul>
         </div>

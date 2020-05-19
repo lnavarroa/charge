@@ -4,9 +4,11 @@
 <!-- HEADER: MENU + HEROE SECTION -->
 <header>
 
-	<div class="heroe">
+<section id="charge" style="background-color: #8ab603;">
 
+<div class="jumbotron jumbotron-fluid" style="background-image: url('<?= base_url('images/blank.png')?>');">
 
-	</div>
 </div>
+
+</section>
 </header>
